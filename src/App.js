@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <div className="EightBall">
-        <div className="EighBall-itself" onClick={getAnswer} style={{backgroundColor: color}} ><p>{message}</p></div>
+        <div className="EighBall-itself" onClick={getAnswer} style={{backgroundColor: color}} ><p className="message">{message}</p></div>
       </div>
     </>
   );
